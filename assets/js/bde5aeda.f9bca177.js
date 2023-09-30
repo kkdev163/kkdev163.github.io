@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7147],{5075:e=>{e.exports=JSON.parse('{"label":"febase","permalink":"/presentation/tags/febase","allTagsPath":"/presentation/tags","count":1}')}}]);

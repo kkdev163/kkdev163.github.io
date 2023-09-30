@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7309],{3316:e=>{e.exports=JSON.parse('{"label":"gmtc","permalink":"/presentation/tags/gmtc","allTagsPath":"/presentation/tags","count":1}')}}]);
