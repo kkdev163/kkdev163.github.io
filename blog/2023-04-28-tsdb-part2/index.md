@@ -7,7 +7,7 @@ tags: [时序数据库、clickhouse、es]
 
 ### 一. 前言
 
-在 [Corona 技术专题-时序数据分析(上)](./tsdb-part1)中，我们介绍了什么是时序数据分析、时序数据库的特点 和 经典时序数据库 InfluxDB。本篇文章将继续围绕时序数据分析专题，介绍 ElasticSearch、ClickHouse 两款数据库在时序分析上的应用。
+在 [Corona 技术专题-时序数据分析(上)](/blog/tsdb-part1)中，我们介绍了什么是时序数据分析、时序数据库的特点 和 经典时序数据库 InfluxDB。本篇文章将继续围绕时序数据分析专题，介绍 ElasticSearch、ClickHouse 两款数据库在时序分析上的应用。
 
 ### 二. ElasticSearch
 
