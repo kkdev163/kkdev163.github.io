@@ -2,7 +2,7 @@
 slug: wapm-storage
 title: 前端性能监控平台-存储与计算架构展望
 authors: [kkdev163]
-tags: [influxdb, web-apm, storage]
+tags: [influxdb, performance, web]
 ---
 
 ### 前言
@@ -161,7 +161,7 @@ SHARD BUCKET 3;
 - 更专业, 大数据分布式计算平台，提供更多的聚合函数，通过写 SQL 就可以完成聚合任务配置。
 - 更灵活, 未提供的聚合函数，可通过开发 JAR 包的方式，灵活自定义配置。
 
-网易云音乐基于 Flink 自研的[Magina 平台](https://music-rtfm.hz.netease.com/magina-doc/)可简化 Flink 的使用，让大数据计算更加亲民。
+网易云音乐基于 Flink 自研的[Magina 平台](https://music-rtfm.hz.NetEase.com/magina-doc/)可简化 Flink 的使用，让大数据计算更加亲民。
 
 文末再次感谢网易数据科学中心-时序数据库领域专家-<a href='http://hbasefly.com/author/libisthanksgmail-com/' target='_blank'>范欣欣</a>，对云音乐前端性能监控平台的架构改进提出的宝贵建议。
 
@@ -172,4 +172,4 @@ SHARD BUCKET 3;
 - [范欣欣-时序数据库技术体系 - 初识 InfluxDB](http://hbasefly.com/2017/12/08/influxdb-1/)
 - [范欣欣-时序数据库技术体系 - InfluxDB TSM 存储引擎之 TSMFile](http://hbasefly.com/2018/01/13/timeseries-database-4/)
 - [范欣欣-时序数据库技术体系 - InfluxDB 多维查询之倒排索引](http://hbasefly.com/2018/02/09/timeseries-database-5/)
-- [范欣欣-网易时序数据库，丰富你的技术栈](http://kms.netease.com/#/article/5933)
+- [范欣欣-网易时序数据库，丰富你的技术栈](http://kms.NetEase.com/#/article/5933)

@@ -3,7 +3,7 @@ import Layout from "@theme/Layout";
 
 export default function Hello() {
   return (
-    <Layout title="Hello" description="Hello React Page">
+    <Layout title="Resume" description="Hello React Page">
       <div
         style={{
           display: "flex",
@@ -13,9 +13,7 @@ export default function Hello() {
           fontSize: "20px",
         }}
       >
-        <p>
-          Edit <code>pages/resume.tsx</code> and save to reload.
-        </p>
+        <p>TODO</p>
       </div>
     </Layout>
   );

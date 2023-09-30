@@ -2,7 +2,7 @@
 slug: sentry-sshfs
 title: Sentry平台-为Docker Swarm集群添加SSHFS分布式文件存储
 authors: [kkdev163]
-tags: [sentry, SSHFS]
+tags: [sentry, sshfs]
 ---
 
 ### 前言

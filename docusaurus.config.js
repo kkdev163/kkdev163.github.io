@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'kkdev163',
-  tagline: 'FullStack Engineer',
+  tagline: 'Web 全栈开发工程师@NetEase',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -31,6 +31,28 @@ const config = {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
   },
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        /**
+         * Required for any multi-instance plugin
+         */
+        id: 'presentation',
+        /**
+         * URL route for the blog section of your site.
+         * *DO NOT* include a trailing slash.
+         */
+        routeBasePath: 'presentation',
+        /**
+         * Path to data on filesystem relative to site dir.
+         */
+        path: './presentation',
+        blogSidebarTitle: "最近演讲",
+        blogSidebarCount: 'ALL',
+      }
+    ]
+  ],
 
   presets: [
     [
@@ -45,7 +67,9 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
+          blogSidebarTitle: "最近文章",
           showReadingTime: true,
+          blogSidebarCount: 'ALL',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -77,7 +101,8 @@ const config = {
           //   label: 'Tutorial',
           // },
           {to: '/blog', label: '文章', position: 'right'},
-          {to: '/resume', label: '关于我(简历)', position: 'right'},
+          {to: '/presentation', label: '演讲', position: 'right'},
+          {to: '/resume', label: '关于我', position: 'right'},
           {
             href: 'https://github.com/kkdev163',
             label: 'GitHub',

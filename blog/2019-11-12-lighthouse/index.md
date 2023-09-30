@@ -2,7 +2,7 @@
 slug: lighthouse
 title: Lighthous 测试内幕
 authors: [kkdev163]
-tags: [lighthouse, web-apm]
+tags: [lighthouse, performance, web]
 ---
 
 ## 前言
