@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[3006],{8339:e=>{e.exports=JSON.parse('{"label":"web-apm","permalink":"/blog/tags/web-apm","allTagsPath":"/blog/tags","count":2}')}}]);
