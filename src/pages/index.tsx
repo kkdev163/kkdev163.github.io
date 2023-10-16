@@ -41,7 +41,7 @@ export default function Home(): JSX.Element {
           本站点收录了个人职业生涯中发表的&nbsp;
           <Link to={"/blog"}>文章</Link>、
           <Link to={"/presentation"}> 演讲</Link>、
-          <Link to={"/resume"}> 履历</Link>&nbsp;等
+          <Link to={"/about"}> 简介</Link>&nbsp;等
         </div>
       </div>
     </Layout>
