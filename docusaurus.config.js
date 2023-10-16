@@ -102,7 +102,7 @@ const config = {
           // },
           {to: '/blog', label: '文章', position: 'right'},
           {to: '/presentation', label: '演讲', position: 'right'},
-          {to: '/resume', label: '关于我', position: 'right'},
+          {to: '/about', label: '关于我', position: 'right'},
           {
             href: 'https://github.com/kkdev163',
             label: 'GitHub',

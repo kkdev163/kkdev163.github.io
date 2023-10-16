@@ -1,0 +1,18 @@
+.page {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: calc(100vh - 40px);
+}
+
+.content {
+  margin-top: 20px;
+  width: 700px;
+  background-color: white;
+}
+
+.contact {
+  align-self: flex-start;
+}
