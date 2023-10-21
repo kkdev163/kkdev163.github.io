@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[929],{3290:e=>{e.exports=JSON.parse('{"label":"wechaty\u3001padlocal\u3001typescript","permalink":"/blog/tags/wechaty\u3001padlocal\u3001typescript","allTagsPath":"/blog/tags","count":1}')}}]);
